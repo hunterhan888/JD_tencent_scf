@@ -25,4 +25,4 @@ jobs:
           source_repo: "https://github.com/zero205/JD_tencent_scf.git"
           source_branch: "main"
           destination_branch: "main"
-          github_token: env.PAT
+          github_token: ${{ secrets.sync-repo }}
